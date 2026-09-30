@@ -1,5 +1,5 @@
 compatibility_date = "2023-10-16"
-main = "src/index.ts"
+pages_build_output_dir = "./dist"
 name = "r2-webdav"
 
 compatibility_flags = ["nodejs_compat"]
@@ -10,7 +10,3 @@ compatibility_flags = ["nodejs_compat"]
 binding = "bucket" # <~ valid JavaScript variable name
 bucket_name = "webdav"
 
-# Docs: https://developers.cloudflare.com/workers/observability/logs/workers-logs/#enable-workers-logs
-[observability]
-enabled = true
-head_sampling_rate = 1
